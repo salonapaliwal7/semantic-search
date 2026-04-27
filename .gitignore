@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ss/
+
+# Local caches and runtime artifacts
+.hf_cache/
+.cache/
+*.log
+
+# Streamlit / OS files
+.streamlit/
+.DS_Store
+
+# Secrets and local configs
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# IDE
+.idea/
+.vscode/
